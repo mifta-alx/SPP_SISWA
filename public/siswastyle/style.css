@@ -1,0 +1,48 @@
+.card {
+    border-radius: 15px;
+}
+
+.card-header {
+    background-color: var(--moredark);
+}
+.m-0.font-weight-bold{
+    color: #ffffff;
+}
+.card-title {
+    color: #ffffff;
+}
+
+label {
+    font-weight: 600;
+    color: #000000;
+}
+a{
+    color: #858796;
+}
+a:hover{
+    color: var(--moredark);
+}
+.report:hover{
+  /* background-color: var(--youngdark); */
+  color: white;
+}
+.report{
+    background-color: var(--moredark);
+    color: #b4bcc8;
+}
+ol,
+ul,
+dl {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.page-link
+{
+    color: var(--moredark) !important;
+}
+.page-item.active .page-link 
+{
+    background-color: var(--moredark) !important;
+    border-color: var(--moredark) !important;
+    color: #fff !important;
+}
